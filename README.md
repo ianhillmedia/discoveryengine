@@ -43,7 +43,7 @@ Copy your API Key
 
 In engine.html, look at your script src:
 
-<script src="https://www.googleapis.com/customsearch/v1?key=APIKEYHERE&cx=CUSTOMSEARCHCXHERE&q=moms&dateRestrict=d[7]&fileType=HTML&callback=hndlr">
+https://www.googleapis.com/customsearch/v1?key=APIKEYHERE&cx=CUSTOMSEARCHCXHERE&q=moms&dateRestrict=d[7]&fileType=HTML&callback=hndlr
 
 Paste your API Key where it says APIKEYHERE and your cx where it says CUSTOMSEARCHCXHERE
 
