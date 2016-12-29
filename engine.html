@@ -1,0 +1,15 @@
+<div id="content"></div>
+<script>
+        
+        // Remember to replace YOUR_API_KEY and CUSTOM SEARCH CX below.
+        
+      function hndlr(response) {
+      for (var i = 0; i < response.items.length; i++) {
+        var item = response.items[i];
+        // in production code, item.htmlTitle should have the HTML entities escaped.
+        document.getElementById("content").innerHTML += "<br>" + item.link;
+      }
+    }
+    </script>
+    <script src="https://www.googleapis.com/customsearch/v1?key=APIKEYHERE&cx=CUSTOMSEARCHCXHERE&q=moms&dateRestrict=d[7]&fileType=HTML&callback=hndlr">
+    </script>
