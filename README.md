@@ -40,6 +40,7 @@ Click Credentials > Create Credentials > API Key
 
 Copy your API Key
 
+Click ENABLE to enable your API key
 
 In engine.html, look at your script src:
 
