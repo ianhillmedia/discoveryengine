@@ -30,7 +30,7 @@ Look at the URL for your Search Engine. It will look something like https://cse.
 
 Copy your cx from the URL
 
-In a new tab, go to https://console.developers.google.com/apis/library?project=millennial-mobile-moms-search
+In a new tab, go to https://console.developers.google.com/apis/library?pli=1
 
 Search for a Custom Search API
 
